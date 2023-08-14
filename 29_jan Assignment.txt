@@ -1,0 +1,74 @@
+1. Who developed Python Programming Language?
+->   Python was developed by Guido van Rossum and was first released in 1991.
+
+2. Which type of Programming does Python support?
+->   Python supports multiple programming paradigms, including:
+   - Procedural programming
+   - Object-oriented programming (OOP)
+   - Functional programming
+   - Modular programming
+
+3. Is Python case sensitive when dealing with identifiers?
+->   Yes, Python is case-sensitive when it comes to identifiers. For example, `myVariable` and `myvariable` would be considered two different identifiers.
+
+4. What is the correct extension of the Python file?
+->  The correct extension for Python files is `.py`. For example, `my_script.py`.
+
+5. Is Python code compiled or interpreted?
+->  Python code is both compiled and interpreted. When you run a Python program, the source code is first compiled into bytecode, which is then executed by the Python interpreter.
+
+6. Name a few blocks of code used to define in Python language?
+->   In Python, code blocks are defined using indentation. Some examples of code blocks include:
+   - Functions
+   - Loops (for, while)
+   - Conditional statements (if, else, elif)
+   - Classes and methods
+
+7. State a character used to give single-line comments in Python?
+->   The character '#' is used to create single-line comments in Python. Anything after '#' on the same line is treated as a comment.
+
+8. Mention functions which can help us find the version of Python that we are currently working on?
+->   You can use the `sys` module to get the Python version information:
+   ```python
+   import sys
+   print(sys.version)
+   ```
+
+9. Python supports the creation of anonymous functions at runtime, using a construct called
+->   Python supports the creation of anonymous functions using the `lambda` keyword. These are known as lambda functions or anonymous functions.
+
+10. What does pip stand for in Python?
+->    PIP stands for "Pip Installs Packages." It is the default package manager for Python and is used to install, upgrade, and manage third-party packages and libraries.
+
+11. Mention a few built-in functions in Python?
+->    Python has a rich set of built-in functions, including:
+   - `print()`: Used to print output to the console.
+   - `len()`: Returns the length of an object (e.g., string, list, etc.).
+   - `range()`: Generates a sequence of numbers.
+   - `type()`: Returns the type of an object.
+   - `input()`: Reads input from the user.
+
+12. What is the maximum possible length of an identifier in Python?
+->    The maximum length of an identifier in Python is not specifically defined, but it's a good practice to keep identifiers reasonably short to maintain code readability.
+
+13. What are the benefits of using Python?
+->    Some benefits of using Python include:
+   - Readable and clean syntax
+   - Wide range of libraries and frameworks
+   - Cross-platform compatibility
+   - Strong community support
+   - Versatility for various programming paradigms
+   - Extensive standard library
+
+14. How is memory managed in Python?
+->    Python uses automatic memory management through a system called "garbage collection." Objects that are no longer referenced are automatically identified and deallocated by the Python interpreter.
+
+15. How to install Python on Windows and set path variables?
+->    Steps to installing Python on Windows and setting up path variables:
+   1. Download the latest Python installer for Windows from the official Python website.
+   2. Run the installer and select the option to add Python to the system PATH during installation.
+   3. Complete the installation process by following the prompts.
+   4. After installation, open Command Prompt and type `python --version` to verify the installation and see the version.
+
+16. Is indentation required in python?
+->    Yes, indentation is required in Python. It's used to define code blocks, such as loops, functions, and conditionals. Indentation consistency is crucial for proper program execution and readability.
